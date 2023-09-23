@@ -4,10 +4,10 @@ This Shiny app is designed to provide insights into coffee consumption by consid
 
 ## File Structure
 
-- **app.R**:
-- **data/**: Contains the data-related module(s).
-- **modules/**: Includes UI and server modules to organize the code.
+- **app.R**: Main R script integrating the Shiny app.
 - **gobal.R**: Contains global R script.
+- **data/**: Contains the data-related modules.
+- **modules/**: UI and server modules to organize the code.
 
 ## Screenshots
 
@@ -15,10 +15,7 @@ This Shiny app is designed to provide insights into coffee consumption by consid
 Initial interaction with the app.
 
 ![Picture 2](images/screenshot2.png)
-Selecting a drink type and specifying drinks per day.
-
-![Picture 3](images/screenshot3.png)
-Visualizing the total caffeine intake for each coffee chain.
+Visualizing a drink type and specifying drinks per day.
 
 ## Credits
 
