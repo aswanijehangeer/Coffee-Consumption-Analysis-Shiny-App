@@ -1,0 +1,19 @@
+# Main App using Modules
+library(shiny)
+library(tidyverse)
+library(readr)
+library(readxl)
+library(janitor)
+
+# Load modules
+source("modules/data_module.R")
+source("modules/ui_module.R")
+source("modules/server_module.R")
+
+ui <- ui_module("app")
+server <- function(input, output, session) {
+  coffee_data <- callModule(data_module, "data")
+  callModule(server_module, "app", coffee_data)
+}
+
+shinyApp(ui, server)

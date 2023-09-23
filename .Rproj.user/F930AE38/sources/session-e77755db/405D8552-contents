@@ -1,0 +1,18 @@
+# UI Module
+ui_module <- function(id) {
+  ns <- NS(id)
+  fluidPage(
+    titlePanel("Coffee Consumption Analysis"),
+    sidebarLayout(
+      sidebarPanel(
+        selectInput(ns("drink_type"), "Drink Type", 
+                    choices = NULL),
+        numericInput(ns("drinks_per_day"), "Drinks per Day", 
+                     value = 2, min = 1, max = 10)
+      ),
+      mainPanel(
+        plotOutput(ns("bar_plot"))
+      )
+    )
+  )
+}
