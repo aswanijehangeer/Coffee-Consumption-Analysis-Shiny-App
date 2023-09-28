@@ -1,0 +1,14 @@
+name: Caffeine_Consumption_Analysis_Shiny_App
+title: Caffeine_Consumption_Analysis_Shiny_App
+username:
+account: jehangeer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10018832
+bundleId: 7738403
+url: https://jehangeer.shinyapps.io/Caffeine_Consumption_Analysis_Shiny_App/
+when: 1695896995.088
+lastSyncTime: 1695896995.08804
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Coffee Consumption Analysis.mp4|images/screenshot1.png|images/screenshot2.png|README.md
