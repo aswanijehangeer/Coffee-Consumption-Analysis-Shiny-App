@@ -2,6 +2,8 @@
 
 This Shiny app is designed to provide insights into coffee consumption by considering caffeine content and drink types. Users can choose a specific drink type and input the number of drinks per day to visualize the total caffeine intake for each coffee chain.
 
+[Check Live App here](https://jehangeer.shinyapps.io/Caffeine_Consumption_Analysis_Shiny_App/)
+
 ## File Structure
 
 - **app.R**: Main R script integrating the Shiny app.
