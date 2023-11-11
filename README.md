@@ -8,8 +8,6 @@ This Shiny app is designed to provide insights into coffee consumption by consid
 
 - **app.R**: Main R script integrating the Shiny app.
 - **gobal.R**: Contains global R script.
-- **data/**: Contains the data-related modules.
-- **modules/**: UI and server modules to organize the code.
 
 ## Screenshots
 
